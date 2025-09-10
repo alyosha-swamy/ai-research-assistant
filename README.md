@@ -110,12 +110,31 @@ vite.config.ts               # Vite configuration
 
 ### Available Scripts
 
-- `npm run dev` - Start API and Vite dev server together
-- `npm run dev:demo` - Same as above with DEMO_MODE enabled
+**Basic Mode (Simple Research App):**
+- `npm run dev` - Start basic API and Vite dev server together
+- `npm run dev:demo` - Basic mode with DEMO_MODE enabled
+- `npm run start` - Production basic mode
+
+**Advanced Mode (Full Deep Research System):**
+- `npm run dev:advanced` - Start advanced research system with full capabilities
+- `npm run dev:advanced:demo` - Advanced mode with simulated responses
+- `npm run start:advanced` - Production advanced mode
+
+**Utilities:**
 - `npm run build` - Build for production
-- `npm run start` - Start API and Vite dev server together
 - `npm run lint` - Run ESLint
 - `npm run type-check` - Run TypeScript type checking
+
+### Mode Comparison
+
+| Feature | Basic Mode | Advanced Mode |
+|---------|------------|---------------|
+| API Integration | ✅ Perplexity API | ✅ Multi-source retrieval |
+| Query Processing | ❌ Simple | ✅ Intelligent expansion |
+| Relevance Scoring | ❌ Basic | ✅ Multi-dimensional |
+| Knowledge Management | ❌ None | ✅ Vector + Graph DB |
+| Research Reports | ❌ Simple format | ✅ Academic quality |
+| Evaluation Framework | ❌ None | ✅ Comprehensive testing |
 
 ### Environment Variables
 
