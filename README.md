@@ -1,16 +1,23 @@
-# AI Research Assistant
+# Advanced Deep Research Systems
 
-A modern React web application that provides comprehensive AI-powered research with exhaustive web search capabilities. Users can input queries, receive detailed research reports with citations, and export the results as PDF or DOCX documents.
+**BCSE497J Project-I: Improving Recursive Information Retrieval and Relevance Categorization**
 
-## Features
+*Authors:* Garvita Vaish (22BCE0832), Raghav R (22BCE0480)  
+*Supervisor:* Dr. Suganthini C, Assistant Professor Sr. Grade 1, SCOPE  
+*Institution:* VIT University, School of Computer Science and Engineering
 
-- 🔍 **Deep Research**: Uses Perplexity's Sonar Deep Research for exhaustive analysis across hundreds of sources
-- 📝 **Expert-Level Reports**: Comprehensive research reports with detailed insights and citations
-- 📊 **Multiple Models**: Choose from Sonar Deep Research, Sonar Pro, or standard Sonar
-- 📄 **PDF Export**: Convert research reports to PDF format
-- 📝 **DOCX Export**: Export reports as Word documents
-- 🎨 **Modern UI**: Clean, responsive design with dark mode support
-- ⚡ **Real-time**: Advanced query processing with reasoning effort control
+An intelligent AI-driven framework that enhances both the accuracy and depth of information retrieval through iterative Search-Read-Reason loops. Unlike conventional search engines, this system evaluates knowledge states, identifies gaps, generates sub-questions, and continues exploring until optimal answers are obtained.
+
+## Key Innovations
+
+- 🔄 **Iterative Research Loop**: Continuous Search-Read-Reason cycles until optimal knowledge synthesis
+- 🧠 **Intelligent Query Decomposition**: Auto-generates sub-questions to fill knowledge gaps
+- 📊 **Multi-dimensional Relevance Scoring**: Semantic similarity, credibility, freshness, and bias detection
+- 🗃️ **Hybrid Knowledge Storage**: Vector databases + graph databases for comprehensive knowledge representation
+- 📋 **Structured Report Generation**: Academic-quality research reports with proper citations
+- 🎯 **Adaptive Learning**: Self-improving search strategies based on success patterns
+- 🔗 **Citation Tracking**: Comprehensive source verification and relationship mapping
+- ⚡ **Resource Management**: Intelligent budgeting for time, API calls, and computational resources
 
 ## Technology Stack
 

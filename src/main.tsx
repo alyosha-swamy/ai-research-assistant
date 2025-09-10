@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { App } from './react/App'
+import { AdvancedApp } from './react/AdvancedApp'
 import './app/globals.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <AdvancedApp />
   </React.StrictMode>
 )
 
